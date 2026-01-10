@@ -38,4 +38,14 @@ export STARSHIP_CONFIG=$ZSHDIR/starship/starship.toml
 # ----------------------------------------------------
 eval "$(gdircolors -b "$ZSHDIR/dircolors")"
 
+# ----------------------------------------------------
+# 補完時にファイルに応じて色をつける
+# ----------------------------------------------------
+autoload -Uz compinit
+if (( ! ${+functions[_main_complete]} )); then
+  compinit
+fi
+zmodload -i zsh/complist
+zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
+unsetopt LIST_TYPES
 
