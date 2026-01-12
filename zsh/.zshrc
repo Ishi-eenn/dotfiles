@@ -52,6 +52,7 @@ unsetopt LIST_TYPES
 # ----------------------------------------------------
 # zsh-autosuggestions
 # ----------------------------------------------------
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=245'
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 
