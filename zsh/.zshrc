@@ -49,3 +49,9 @@ zmodload -i zsh/complist
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 unsetopt LIST_TYPES
 
+# ----------------------------------------------------
+# zsh-autosuggestions
+# ----------------------------------------------------
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
