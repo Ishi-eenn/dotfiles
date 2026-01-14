@@ -1,11 +1,17 @@
 local wezterm = require("wezterm")
+local mux = wezterm.mux
 local config = wezterm.config_builder()
+
+wezterm.on("gui-startup", function(cmd)
+	local _, _, window = mux.spawn_window(cmd or {})
+	window:gui_window():maximize()
+end)
 
 config.automatically_reload_config = true
 -- config.font = wezterm.font("DepartureMono Nerd Font Mono")
 config.font_size = 15.0
 config.use_ime = true
-config.window_background_opacity = 0.65
+config.window_background_opacity = 0.70
 config.macos_window_background_blur = 20
 config.window_decorations = "RESIZE"
 -- タブバーを非表示

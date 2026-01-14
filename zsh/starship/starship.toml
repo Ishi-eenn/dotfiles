@@ -21,6 +21,7 @@ $time\
 
 [fill]
 symbol = '─'
+style = "fg:#a0a9cb"
 
 [directory]
 truncation_length = 2
