@@ -10,16 +10,26 @@ return {
           "TabLineSel",
           "TabLineFill",
 
-          -- bufferline系（入れてるなら）
+          -- bufferline系
           "BufferLineFill",
           "BufferLineBackground",
           "BufferLineGroupLabel",
           "BufferLineOffsetSeparator",
-          -- nvim-tree（塗りが残るやつ）
+
+          -- nvim-tree
           "NvimTreeNormal",
           "NvimTreeNormalNC",
           "NvimTreeWinSeparator",
           "NvimTreeOpenedFile",
+
+          -- which-key
+          "NormalFloat",
+          "FloatBorder",
+          "FloatTitle",
+          "WhichKey",
+          "WhichKeyNormal",
+          "WhichKeyBorder",
+          "WhichKeyTitle",
         },
       })
 
