@@ -1,30 +1,14 @@
-peco-select-history() {
-  local tac
-  if which tac > /dev/null; then
-    tac="tac"
-  else
-    tac="tail -r"
-  fi
-  BUFFER=$(history -n 1 | \
-  eval $tac | \
-  peco --query "$LBUFFER")
-  CURSOR=$#BUFFER
-  zle clear-screen
-}
-zle -N peco-select-history
-bindkey '^r' peco-select-history
-
 export PATH=$PATH:/Users/ishikawatsubasa/.nodebrew/current/bin/acc
 
 # ----------------------------------------------------
 # Alias
 # ----------------------------------------------------
-source "$ZSHDIR/alias.zsh"
+source "$ZSHDIR/rc/alias.zsh"
 
 # ----------------------------------------------------
 # cd-bookmark
 # ----------------------------------------------------
-fpath=($ZSHDIR/cd-bookmark(N-/) $fpath)
+fpath=($ZSHDIR/rc/cd-bookmark(N-/) $fpath)
 autoload -Uz cd-bookmark
 
 # ----------------------------------------------------
@@ -55,4 +39,10 @@ unsetopt LIST_TYPES
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=245'
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_STRATEGY=(history completion)
+
+# ----------------------------------------------------
+# fzf
+# ----------------------------------------------------
+[ -f $ZSHDIR/rc/fzf/completion.zsh ] && source "$ZSHDIR/rc/fzf/completion.zsh"
+[ -f $ZSHDIR/rc/fzf/key-bindings.zsh ] && source "$ZSHDIR/rc/fzf/key-bindings.zsh"
 
