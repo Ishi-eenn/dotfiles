@@ -4,9 +4,13 @@ vim.api.nvim_create_autocmd({ "ColorScheme", "VimEnter" }, {
     vim.api.nvim_set_hl(0, "CursorLineNr", { fg = "#e0af68", bg = "NONE", bold = true })
     vim.api.nvim_set_hl(0, "NormalFloat", { bg = "NONE" })
     vim.api.nvim_set_hl(0, "FloatBorder", { bg = "NONE" })
-    vim.api.nvim_set_hl(0, "WhichKeyNormal", { bg = "NONE" })
-    vim.api.nvim_set_hl(0, "WhichKeyFloat",  { bg = "NONE" })
-    vim.api.nvim_set_hl(0, "WhichKeyBorder", { bg = "NONE" })
-    vim.api.nvim_set_hl(0, "WhichKeyTitle",  { bg = "NONE" })
+  end,
+})
+
+vim.api.nvim_create_autocmd("FileType", {
+  pattern = { "netrw" },
+  callback = function()
+    -- netrw系のウィンドウ背景を消す
+    vim.api.nvim_set_hl(0, "Normal", { bg = "NONE" })
   end,
 })

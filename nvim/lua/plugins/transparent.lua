@@ -30,6 +30,24 @@ return {
           "WhichKeyNormal",
           "WhichKeyBorder",
           "WhichKeyTitle",
+
+          -- fzf
+          "FzfLuaNormal",
+          "FzfLuaBorder",
+          "FzfLuaTitle",
+          "FzfLuaPreviewNormal",
+          "FzfLuaPreviewBorder",
+
+          -- telescope
+          "TelescopeNormal",
+          "TelescopeBorder",
+          "TelescopeTitle",
+          "TelescopePromptNormal",
+          "TelescopePromptBorder",
+          "TelescopeResultsNormal",
+          "TelescopeResultsBorder",
+          "TelescopePreviewNormal",
+          "TelescopePreviewBorder",
         },
       })
 
