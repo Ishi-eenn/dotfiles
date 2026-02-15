@@ -37,6 +37,7 @@ return {
           "FzfLuaTitle",
           "FzfLuaPreviewNormal",
           "FzfLuaPreviewBorder",
+          "FzfLuaPreviewTitle",
 
           -- telescope
           "TelescopeNormal",
