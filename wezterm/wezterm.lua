@@ -10,6 +10,7 @@ end)
 config.automatically_reload_config = true
 -- config.font = wezterm.font("DepartureMono Nerd Font Mono")
 config.font_size = 15.0
+config.harfbuzz_features = { "calt=0", "clig=0", "liga=0" }
 config.use_ime = true
 config.window_background_opacity = 0.70
 config.macos_window_background_blur = 20
