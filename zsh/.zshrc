@@ -46,3 +46,4 @@ ZSH_AUTOSUGGEST_STRATEGY=(history completion)
 [ -f $ZSHDIR/rc/fzf/completion.zsh ] && source "$ZSHDIR/rc/fzf/completion.zsh"
 [ -f $ZSHDIR/rc/fzf/key-bindings.zsh ] && source "$ZSHDIR/rc/fzf/key-bindings.zsh"
 
+export PATH="/Library/Frameworks/Python.framework/Versions/3.10/bin:$PATH"

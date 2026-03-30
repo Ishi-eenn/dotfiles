@@ -1,0 +1,9 @@
+WRN 2026-03-30T23:37:09.319 ?.74527    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/5Wk20N/nvim.74527.0
+WRN 2026-03-30T23:37:09.319 ?.74529    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/oCWPpo/nvim.74529.0
+WRN 2026-03-30T23:37:09.319 ?.74528    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/PkeeDp/nvim.74528.0
+WRN 2026-03-30T23:40:09.632 ?.75238    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/rBhuNv/nvim.75238.0
+WRN 2026-03-30T23:40:09.700 ?.75239    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/9j8Gp2/nvim.75239.0
+WRN 2026-03-30T23:40:09.700 ?.75240    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/p25fwb/nvim.75240.0
+WRN 2026-03-30T23:40:18.201 ?.75317    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/qxyjX0/nvim.75317.0
+WRN 2026-03-30T23:40:18.265 ?.75329    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/ajlP51/nvim.75329.0
+WRN 2026-03-30T23:40:18.266 ?.75330    server_start:193: Failed to start server: operation not permitted: /var/folders/z0/276xl5qx2l18sg9tk12zwr440000gn/T/nvim.ishikawatsubasa/YkoSCD/nvim.75330.0
